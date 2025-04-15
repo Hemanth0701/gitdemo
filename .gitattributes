@@ -1,2 +1,22 @@
-/mvnw text eol=lf
+# Handle line endings
+* text=auto
+
+# Shell scripts (Linux/mac)
+*.sh text eol=lf
+
+# Batch files (Windows)
 *.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Java source
+*.java text eol=lf
+
+# Maven wrapper
+mvnw text eol=lf
+mvnw.cmd text eol=crlf
+
+# XML config
+*.xml text eol=lf
+
+# Properties files
+*.properties text=lf
